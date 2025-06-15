@@ -1,0 +1,39 @@
+# .gitignore
+
+# ==============================================================================
+#                 Git Ignore File for the Data Pipeline Project
+# ==============================================================================
+# This file tells Git which files and directories to intentionally ignore.
+# It prevents temporary files, generated data, and local environment folders
+# from being committed to the repository.
+
+# --- Generated Data ---
+# This is the most important rule for this project. We never want to commit
+# the output of the pipeline, only the code that generates it.
+data/
+
+# --- Log Files ---
+# Log files are specific to a single run and should not be version controlled.
+pipeline.log
+*.log
+
+# --- Python Virtual Environment ---
+# The virtual environment folder contains installed packages and is specific
+# to the local machine. Each developer should create their own.
+venv/
+*.venv
+
+# --- Python Cache Files ---
+# Python generates these folders to store compiled bytecode. They are
+# automatically regenerated and should be ignored.
+__pycache__/
+*.pyc
+
+# --- IDE and OS-specific files ---
+# These are metadata files created by various editors and operating systems.
+
+# macOS
+.DS_Store
+
+# Visual Studio Code
+.vscode/

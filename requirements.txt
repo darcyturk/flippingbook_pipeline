@@ -1,0 +1,15 @@
+# This file lists the Python packages needed to run the pipeline.
+# You can install all of them at once using: pip install -r requirements.txt
+
+# For web browser automation and network interception
+playwright==1.44.0
+
+# For image processing (opening, cropping, enhancing)
+pillow
+
+# A Python wrapper for Google's Tesseract-OCR engine
+pytesseract
+
+# For making simple HTTP requests, like downloading images
+requests
+
