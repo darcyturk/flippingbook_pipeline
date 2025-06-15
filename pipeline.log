@@ -1,0 +1,500 @@
+2025-06-15 08:01:56 - INFO     - root                      - ============================================================
+2025-06-15 08:01:56 - INFO     - root                      - FlippingBook Product Extraction Pipeline Starting...
+2025-06-15 08:01:56 - INFO     - root                      - Running steps: [1, 2]
+2025-06-15 08:01:56 - INFO     - root                      - ============================================================
+2025-06-15 08:01:56 - INFO     - src.delegates.file_manager_delegate - File manager initialized. Data will be stored in subdirectories of: /Users/darculian/flippingbook_pipeline_test/data
+2025-06-15 08:01:57 - INFO     - src.pipeline.steps        - --- STEP 1: EXTRACTING PUBLICATION MODEL FROM HTML ---
+2025-06-15 08:01:57 - INFO     - src.delegates.web_scraper_delegate - Navigating to catalog: https://online.flippingbook.com/view/890674106/1
+2025-06-15 08:01:58 - INFO     - src.delegates.web_scraper_delegate - Successfully fetched page HTML content.
+2025-06-15 08:01:58 - ERROR    - src.pipeline.steps        - Failed to parse Publication Model from HTML: Expecting property name enclosed in double quotes: line 2 column 13 (char 31)
+2025-06-15 08:01:58 - ERROR    - src.pipeline.steps        - Failed to extract publication model from HTML. Exiting.
+2025-06-15 08:01:58 - ERROR    - src.main                  - Cannot run Step 2: Extracted model JSON from Step 1 not found. Please run Step 1 first.
+2025-06-15 08:01:58 - INFO     - root                      - ============================================================
+2025-06-15 08:01:58 - INFO     - root                      - Pipeline execution finished.
+2025-06-15 08:33:31 - INFO     - root                      - ============================================================
+2025-06-15 08:33:31 - INFO     - root                      - FlippingBook Product Extraction Pipeline Starting...
+2025-06-15 08:33:31 - INFO     - root                      - Running steps: [1, 2]
+2025-06-15 08:33:31 - INFO     - root                      - ============================================================
+2025-06-15 08:33:31 - INFO     - src.delegates.file_manager_delegate - File manager initialized. Data will be stored in subdirectories of: /Users/darculian/flippingbook_pipeline_test/data
+2025-06-15 08:33:32 - INFO     - src.pipeline.steps        - --- STEP 1: EXTRACTING PUBLICATION MODEL FROM HTML ---
+2025-06-15 08:33:32 - INFO     - src.pipeline.steps        - Attempting to retrieve HTML from: https://online.flippingbook.com/view/890674106/1
+2025-06-15 08:33:32 - INFO     - src.delegates.web_scraper_delegate - Navigating to catalog: https://online.flippingbook.com/view/890674106/1
+2025-06-15 08:33:33 - INFO     - src.delegates.web_scraper_delegate - Successfully fetched page HTML content.
+2025-06-15 08:33:33 - ERROR    - src.pipeline.steps        - Failed to parse Publication Model from HTML: Expecting property name enclosed in double quotes: line 2 column 13 (char 31)
+2025-06-15 08:33:33 - ERROR    - src.pipeline.steps        - Failed to extract publication model from HTML for https://online.flippingbook.com/view/890674106/1. Exiting pipeline.
+2025-06-15 08:33:33 - ERROR    - src.main                  - Cannot run Step 2: Extracted model JSON from Step 1 not found. Please run Step 1 first.
+2025-06-15 08:33:33 - INFO     - root                      - ============================================================
+2025-06-15 08:33:33 - INFO     - root                      - Pipeline execution finished.
+2025-06-15 08:36:42 - INFO     - root                      - ============================================================
+2025-06-15 08:36:42 - INFO     - root                      - FlippingBook Product Extraction Pipeline Starting...
+2025-06-15 08:36:42 - INFO     - root                      - Running steps: [1, 2]
+2025-06-15 08:36:42 - INFO     - root                      - ============================================================
+2025-06-15 08:36:42 - INFO     - src.delegates.file_manager_delegate - File manager initialized. Data will be stored in subdirectories of: /Users/darculian/flippingbook_pipeline_test/data
+2025-06-15 08:36:43 - INFO     - src.pipeline.steps        - --- STEP 1: EXTRACTING PUBLICATION MODEL FROM HTML ---
+2025-06-15 08:36:43 - INFO     - src.pipeline.steps        - Attempting to retrieve HTML from: https://online.flippingbook.com/view/890674106/1
+2025-06-15 08:36:44 - INFO     - src.delegates.web_scraper_delegate - Navigating to catalog: https://online.flippingbook.com/view/890674106/1
+2025-06-15 08:36:44 - INFO     - src.delegates.web_scraper_delegate - Successfully fetched page HTML content.
+2025-06-15 08:36:44 - ERROR    - src.pipeline.steps        - Failed to parse Publication Model from HTML: Expecting property name enclosed in double quotes: line 2 column 13 (char 31)
+2025-06-15 08:36:44 - ERROR    - src.pipeline.steps        - Faulty JSON string snippet around char 31: '{ "Publication": {
+            Configuration: {"accessibilityPdf":null,"accessPol'
+2025-06-15 08:36:44 - ERROR    - src.pipeline.steps        - Failed to extract publication model from HTML for https://online.flippingbook.com/view/890674106/1. Exiting pipeline.
+2025-06-15 08:36:44 - ERROR    - src.main                  - Cannot run Step 2: Extracted model JSON from Step 1 not found. Please run Step 1 first.
+2025-06-15 08:36:44 - INFO     - root                      - ============================================================
+2025-06-15 08:36:44 - INFO     - root                      - Pipeline execution finished.
+2025-06-15 08:38:13 - INFO     - root                      - ============================================================
+2025-06-15 08:38:13 - INFO     - root                      - FlippingBook Product Extraction Pipeline Starting...
+2025-06-15 08:38:13 - INFO     - root                      - Running steps: [1, 2]
+2025-06-15 08:38:13 - INFO     - root                      - ============================================================
+2025-06-15 08:38:13 - INFO     - src.delegates.file_manager_delegate - File manager initialized. Data will be stored in subdirectories of: /Users/darculian/flippingbook_pipeline_test/data
+2025-06-15 08:38:14 - INFO     - src.pipeline.steps        - --- STEP 1: EXTRACTING PUBLICATION MODEL FROM HTML ---
+2025-06-15 08:38:14 - INFO     - src.pipeline.steps        - Attempting to retrieve HTML from: https://online.flippingbook.com/view/890674106/1
+2025-06-15 08:38:14 - INFO     - src.delegates.web_scraper_delegate - Navigating to catalog: https://online.flippingbook.com/view/890674106/1
+2025-06-15 08:38:15 - INFO     - src.delegates.web_scraper_delegate - Successfully fetched page HTML content.
+2025-06-15 08:38:15 - ERROR    - src.pipeline.steps        - Failed to parse Publication Model from HTML: Expecting property name enclosed in double quotes: line 2 column 13 (char 31)
+2025-06-15 08:38:15 - ERROR    - src.pipeline.steps        - Faulty JSON string snippet around char 31: '{ "Publication": {
+            Configuration: {"accessibilityPdf":null,"accessPol'
+2025-06-15 08:38:15 - ERROR    - src.pipeline.steps        - Failed to extract publication model from HTML for https://online.flippingbook.com/view/890674106/1. Exiting pipeline.
+2025-06-15 08:38:15 - ERROR    - src.main                  - Cannot run Step 2: Extracted model JSON from Step 1 not found. Please run Step 1 first.
+2025-06-15 08:38:15 - INFO     - root                      - ============================================================
+2025-06-15 08:38:15 - INFO     - root                      - Pipeline execution finished.
+2025-06-15 08:43:37 - INFO     - root                      - ============================================================
+2025-06-15 08:43:37 - INFO     - root                      - FlippingBook Product Extraction Pipeline Starting...
+2025-06-15 08:43:37 - INFO     - root                      - Running steps: [1, 2]
+2025-06-15 08:43:37 - INFO     - root                      - ============================================================
+2025-06-15 08:43:37 - INFO     - src.delegates.file_manager_delegate - File manager initialized. Data will be stored in subdirectories of: /Users/darculian/flippingbook_pipeline_test/data
+2025-06-15 08:43:39 - INFO     - src.pipeline.steps        - --- STEP 1: EXTRACTING PUBLICATION MODEL FROM HTML ---
+2025-06-15 08:43:39 - INFO     - src.pipeline.steps        - Attempting to retrieve HTML from: https://online.flippingbook.com/view/890674106/1
+2025-06-15 08:43:39 - INFO     - src.delegates.web_scraper_delegate - Navigating to catalog: https://online.flippingbook.com/view/890674106/1
+2025-06-15 08:43:39 - ERROR    - src.delegates.web_scraper_delegate - Failed to load page HTML: Page.goto: Timeout 60ms exceeded.
+Call log:
+navigating to "https://online.flippingbook.com/view/890674106/1", waiting until "domcontentloaded"
+
+2025-06-15 08:43:39 - ERROR    - src.pipeline.steps        - Failed to retrieve HTML content for https://online.flippingbook.com/view/890674106/1. Exiting pipeline.
+2025-06-15 08:43:39 - ERROR    - src.main                  - Cannot run Step 2: Extracted model JSON from Step 1 not found. Please run Step 1 first.
+2025-06-15 08:43:39 - INFO     - root                      - ============================================================
+2025-06-15 08:43:39 - INFO     - root                      - Pipeline execution finished.
+2025-06-15 08:45:20 - INFO     - root                      - ============================================================
+2025-06-15 08:45:20 - INFO     - root                      - FlippingBook Product Extraction Pipeline Starting...
+2025-06-15 08:45:20 - INFO     - root                      - Running steps: [1, 2]
+2025-06-15 08:45:20 - INFO     - root                      - ============================================================
+2025-06-15 08:45:20 - INFO     - src.delegates.file_manager_delegate - File manager initialized. Data will be stored in subdirectories of: /Users/darculian/flippingbook_pipeline_test/data
+2025-06-15 08:45:21 - INFO     - src.pipeline.steps        - --- STEP 1: EXTRACTING PUBLICATION MODEL FROM HTML ---
+2025-06-15 08:45:21 - INFO     - src.pipeline.steps        - Attempting to retrieve HTML from: https://online.flippingbook.com/view/890674106/1
+2025-06-15 08:45:22 - INFO     - src.delegates.web_scraper_delegate - Navigating to catalog: https://online.flippingbook.com/view/890674106/1
+2025-06-15 08:45:22 - INFO     - src.delegates.web_scraper_delegate - Successfully fetched page HTML content.
+2025-06-15 08:45:22 - ERROR    - src.pipeline.steps        - Failed to parse Publication Model from HTML: Expecting property name enclosed in double quotes: line 2 column 13 (char 31)
+2025-06-15 08:45:22 - ERROR    - src.pipeline.steps        - Faulty JSON string snippet around char 31: '{ "Publication": {
+            Configuration: {"accessibilityPdf":null,"accessPol'
+2025-06-15 08:45:22 - ERROR    - src.pipeline.steps        - Failed to extract publication model from HTML for https://online.flippingbook.com/view/890674106/1. Exiting pipeline.
+2025-06-15 08:45:22 - ERROR    - src.main                  - Cannot run Step 2: Extracted model JSON from Step 1 not found. Please run Step 1 first.
+2025-06-15 08:45:22 - INFO     - root                      - ============================================================
+2025-06-15 08:45:22 - INFO     - root                      - Pipeline execution finished.
+2025-06-15 08:49:01 - INFO     - root                      - ============================================================
+2025-06-15 08:49:01 - INFO     - root                      - FlippingBook Product Extraction Pipeline Starting...
+2025-06-15 08:49:01 - INFO     - root                      - Running steps: [1, 2]
+2025-06-15 08:49:01 - INFO     - root                      - ============================================================
+2025-06-15 08:49:01 - INFO     - src.delegates.file_manager_delegate - File manager initialized. Data will be stored in subdirectories of: /Users/darculian/flippingbook_pipeline_test/data
+2025-06-15 08:49:02 - INFO     - src.pipeline.steps        - --- STEP 1: EXTRACTING PUBLICATION MODEL FROM HTML ---
+2025-06-15 08:49:02 - INFO     - src.pipeline.steps        - Attempting to retrieve HTML from: https://online.flippingbook.com/view/890674106/1
+2025-06-15 08:49:03 - INFO     - src.delegates.web_scraper_delegate - Navigating to catalog: https://online.flippingbook.com/view/890674106/1
+2025-06-15 08:49:03 - INFO     - src.delegates.web_scraper_delegate - Successfully fetched page HTML content for https://online.flippingbook.com/view/890674106/1.
+2025-06-15 08:49:03 - ERROR    - src.pipeline.steps        - Failed to parse Publication Model from HTML: Expecting property name enclosed in double quotes: line 2 column 13 (char 31)
+2025-06-15 08:49:03 - ERROR    - src.pipeline.steps        - Faulty JSON string snippet around char 31: '{ "Publication": {
+            Configuration: {"accessibilityPdf":null,"accessPol'
+2025-06-15 08:49:03 - ERROR    - src.pipeline.steps        - Failed to extract publication model from HTML for https://online.flippingbook.com/view/890674106/1. Exiting pipeline.
+2025-06-15 08:49:03 - ERROR    - src.main                  - Cannot run Step 2: Extracted model JSON from Step 1 not found. Please run Step 1 first.
+2025-06-15 08:49:03 - INFO     - root                      - ============================================================
+2025-06-15 08:49:03 - INFO     - root                      - Pipeline execution finished.
+2025-06-15 08:53:16 - INFO     - root                      - ============================================================
+2025-06-15 08:53:16 - INFO     - root                      - FlippingBook Product Extraction Pipeline Starting...
+2025-06-15 08:53:16 - INFO     - root                      - Running steps: [1, 2]
+2025-06-15 08:53:16 - INFO     - root                      - ============================================================
+2025-06-15 08:53:16 - INFO     - src.delegates.file_manager_delegate - File manager initialized. Data will be stored in subdirectories of: /Users/darculian/flippingbook_pipeline_test/data
+2025-06-15 08:53:17 - INFO     - src.pipeline.steps        - --- STEP 1: EXTRACTING PUBLICATION MODEL FROM HTML ---
+2025-06-15 08:53:17 - INFO     - src.pipeline.steps        - Attempting to retrieve HTML from: https://online.flippingbook.com/view/890674106/1
+2025-06-15 08:53:17 - INFO     - src.delegates.web_scraper_delegate - Navigating to catalog: https://online.flippingbook.com/view/890674106/1
+2025-06-15 08:53:17 - INFO     - src.delegates.web_scraper_delegate - Successfully fetched page HTML content for https://online.flippingbook.com/view/890674106/1.
+2025-06-15 08:53:18 - ERROR    - src.pipeline.steps        - Failed to parse Publication Model from HTML: Expecting property name enclosed in double quotes: line 2 column 13 (char 31)
+2025-06-15 08:53:18 - ERROR    - src.pipeline.steps        - Faulty JSON string snippet around char 31: '{ "Publication": {
+            Configuration: {"accessibilityPdf":null,"accessPol'
+2025-06-15 08:53:18 - ERROR    - src.pipeline.steps        - Failed to extract publication model from HTML for https://online.flippingbook.com/view/890674106/1. Exiting pipeline.
+2025-06-15 08:53:18 - ERROR    - src.main                  - Cannot run Step 2: Extracted model JSON from Step 1 not found. Please run Step 1 first.
+2025-06-15 08:53:18 - INFO     - root                      - ============================================================
+2025-06-15 08:53:18 - INFO     - root                      - Pipeline execution finished.
+2025-06-15 09:00:11 - INFO     - root                      - ============================================================
+2025-06-15 09:00:11 - INFO     - root                      - FlippingBook Product Extraction Pipeline Starting...
+2025-06-15 09:00:11 - INFO     - root                      - Running steps: [1, 2]
+2025-06-15 09:00:11 - INFO     - root                      - ============================================================
+2025-06-15 09:00:11 - INFO     - src.delegates.file_manager_delegate - File manager initialized. Data will be stored in subdirectories of: /Users/darculian/flippingbook_pipeline_test/data
+2025-06-15 09:00:12 - INFO     - src.pipeline.steps        - --- STEP 1: EXTRACTING PUBLICATION MODEL FROM HTML ---
+2025-06-15 09:00:12 - INFO     - src.pipeline.steps        - Attempting to retrieve HTML from: https://online.flippingbook.com/view/890674106/1
+2025-06-15 09:00:12 - INFO     - src.delegates.web_scraper_delegate - Navigating to catalog: https://online.flippingbook.com/view/890674106/1
+2025-06-15 09:00:13 - INFO     - src.delegates.web_scraper_delegate - Successfully fetched page HTML content for https://online.flippingbook.com/view/890674106/1.
+2025-06-15 09:00:13 - ERROR    - src.pipeline.steps        - Failed to parse Publication Model from HTML: Expecting property name enclosed in double quotes: line 2 column 13 (char 31)
+2025-06-15 09:00:13 - ERROR    - src.pipeline.steps        - Faulty JSON string snippet around char 31: '{ "Publication": {
+            Configuration: {"accessibilityPdf":null,"accessPol'
+2025-06-15 09:00:13 - ERROR    - src.pipeline.steps        - Failed to extract publication model from HTML for https://online.flippingbook.com/view/890674106/1. Exiting pipeline.
+2025-06-15 09:00:13 - ERROR    - src.main                  - Cannot run Step 2: Extracted model JSON from Step 1 not found. Please run Step 1 first.
+2025-06-15 09:00:13 - INFO     - root                      - ============================================================
+2025-06-15 09:00:13 - INFO     - root                      - Pipeline execution finished.
+2025-06-15 11:01:07 - INFO     - root                      - ============================================================
+2025-06-15 11:01:07 - INFO     - root                      - FlippingBook Product Extraction Pipeline Starting...
+2025-06-15 11:01:07 - INFO     - root                      - Running steps: [1, 2]
+2025-06-15 11:01:07 - INFO     - root                      - ============================================================
+2025-06-15 11:01:07 - INFO     - src.delegates.file_manager_delegate - File manager initialized. Data will be stored in subdirectories of: /Users/darculian/flippingbook_pipeline_test/data
+2025-06-15 11:01:08 - INFO     - src.pipeline.steps        - --- STEP 1: EXTRACTING PUBLICATION MODEL FROM HTML ---
+2025-06-15 11:01:08 - INFO     - src.pipeline.steps        - Attempting to retrieve HTML from: https://online.flippingbook.com/view/890674106/1
+2025-06-15 11:01:08 - INFO     - src.delegates.web_scraper_delegate - Navigating to catalog: https://online.flippingbook.com/view/890674106/1
+2025-06-15 11:01:09 - INFO     - src.delegates.web_scraper_delegate - Successfully fetched page HTML content for https://online.flippingbook.com/view/890674106/1.
+2025-06-15 11:01:09 - ERROR    - src.pipeline.steps        - Failed to parse Publication Model from HTML: Expecting property name enclosed in double quotes: line 2 column 13 (char 31)
+2025-06-15 11:01:09 - ERROR    - src.pipeline.steps        - Faulty JSON string snippet around char 31: '{ "Publication": {
+            Configuration: {"accessibilityPdf":null,"accessPol'
+2025-06-15 11:01:09 - ERROR    - src.pipeline.steps        - Failed to extract publication model from HTML for https://online.flippingbook.com/view/890674106/1. Exiting pipeline.
+2025-06-15 11:01:09 - ERROR    - src.main                  - Cannot run Step 2: Extracted model JSON from Step 1 not found. Please run Step 1 first.
+2025-06-15 11:01:09 - INFO     - root                      - ============================================================
+2025-06-15 11:01:09 - INFO     - root                      - Pipeline execution finished.
+2025-06-15 11:45:35 - INFO     - root                      - ============================================================
+2025-06-15 11:45:35 - INFO     - root                      - FlippingBook Product Extraction Pipeline Starting...
+2025-06-15 11:45:35 - INFO     - root                      - Running steps: [1, 2]
+2025-06-15 11:45:35 - INFO     - root                      - ============================================================
+2025-06-15 11:45:35 - INFO     - src.delegates.file_manager_delegate - File manager initialized. Data will be stored in subdirectories of: /Users/darculian/flippingbook_pipeline_test/data
+2025-06-15 11:45:41 - INFO     - src.pipeline.steps        - --- STEP 1: EXTRACTING PUBLICATION MODEL FROM HTML ---
+2025-06-15 11:45:41 - INFO     - src.pipeline.steps        - Attempting to retrieve HTML from: https://online.flippingbook.com/view/890674106/1
+2025-06-15 11:45:41 - INFO     - src.delegates.web_scraper_delegate - Navigating to catalog: https://online.flippingbook.com/view/890674106/1
+2025-06-15 11:45:42 - INFO     - src.delegates.web_scraper_delegate - Successfully fetched page HTML content for https://online.flippingbook.com/view/890674106/1.
+2025-06-15 11:45:42 - INFO     - src.delegates.file_manager_delegate - Saved extracted Publication Model to: pager_890674106.json
+2025-06-15 11:45:42 - INFO     - src.pipeline.steps        - Publication model saved to: /Users/darculian/flippingbook_pipeline_test/data/1_pager_json/pager_890674106.json
+2025-06-15 11:45:42 - INFO     - src.pipeline.steps        - --- STEP 1 COMPLETE ---
+2025-06-15 11:45:43 - INFO     - root                      - ============================================================
+2025-06-15 11:45:43 - INFO     - root                      - Pipeline execution finished.
+2025-06-15 11:47:59 - INFO     - root                      - ============================================================
+2025-06-15 11:47:59 - INFO     - root                      - FlippingBook Product Extraction Pipeline Starting...
+2025-06-15 11:47:59 - INFO     - root                      - Running steps: [1, 2]
+2025-06-15 11:47:59 - INFO     - root                      - ============================================================
+2025-06-15 11:47:59 - INFO     - src.main                  - Initializing delegates...
+2025-06-15 11:47:59 - INFO     - src.delegates.file_manager_delegate - File manager initialized. Data will be stored in subdirectories of: /Users/darculian/flippingbook_pipeline_test/data
+2025-06-15 11:47:59 - CRITICAL - root                      - An unexpected error occurred: __init__() missing 1 required positional argument: 'user_agent'
+Traceback (most recent call last):
+  File "/Users/darculian/flippingbook_pipeline_test/run_extractor.py", line 82, in <module>
+    asyncio.run(run_pipeline(steps_to_run=args.steps))
+  File "/Users/darculian/.pyenv/versions/3.9.2/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Users/darculian/.pyenv/versions/3.9.2/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/darculian/flippingbook_pipeline_test/src/main.py", line 17, in main
+    downloader = DownloaderDelegate() # Assuming DownloaderDelegate doesn't need __aenter__/__aexit__
+TypeError: __init__() missing 1 required positional argument: 'user_agent'
+2025-06-15 11:47:59 - INFO     - root                      - ============================================================
+2025-06-15 11:47:59 - INFO     - root                      - Pipeline execution finished.
+2025-06-15 11:52:14 - INFO     - root                      - ============================================================
+2025-06-15 11:52:14 - INFO     - root                      - FlippingBook Product Extraction Pipeline Starting...
+2025-06-15 11:52:14 - INFO     - root                      - Running steps: [1, 2]
+2025-06-15 11:52:14 - INFO     - root                      - ============================================================
+2025-06-15 11:52:14 - INFO     - src.delegates.file_manager_delegate - File manager initialized. Data will be stored in subdirectories of: /Users/darculian/flippingbook_pipeline_test/data
+2025-06-15 11:52:17 - INFO     - src.pipeline.steps        - --- STEP 1: EXTRACTING PUBLICATION MODEL FROM HTML ---
+2025-06-15 11:52:17 - INFO     - src.pipeline.steps        - Attempting to retrieve HTML from: https://online.flippingbook.com/view/890674106/1
+2025-06-15 11:52:18 - INFO     - src.delegates.web_scraper_delegate - Navigating to catalog: https://online.flippingbook.com/view/890674106/1
+2025-06-15 11:52:19 - INFO     - src.delegates.web_scraper_delegate - Successfully fetched page HTML content for https://online.flippingbook.com/view/890674106/1.
+2025-06-15 11:52:19 - INFO     - src.delegates.file_manager_delegate - Saved extracted Publication Model to: pager_890674106.json
+2025-06-15 11:52:19 - INFO     - src.pipeline.steps        - Publication model saved to: /Users/darculian/flippingbook_pipeline_test/data/1_pager_json/pager_890674106.json
+2025-06-15 11:52:19 - INFO     - src.pipeline.steps        - --- STEP 1 COMPLETE ---
+2025-06-15 11:52:19 - INFO     - src.pipeline.steps        - --- STEP 2: EXTRACTING PRODUCT DATA FROM XML ---
+2025-06-15 11:52:19 - INFO     - src.pipeline.steps        - Constructed base search URL: https://d17lvj5xn8sco6.cloudfront.net/CF/7B/7B/36/F8/E1/AA/9D/49/3A/C9/E6/8A/27/64/28/00517583/flash/search/
+2025-06-15 11:52:19 - INFO     - src.pipeline.steps        - Discovered 0 pages to process.
+2025-06-15 11:52:19 - INFO     - src.pipeline.steps        - --- STEP 2 COMPLETE ---
+2025-06-15 11:52:19 - INFO     - src.main                  - Main pipeline process finished.
+2025-06-15 11:52:19 - INFO     - root                      - ============================================================
+2025-06-15 11:52:19 - INFO     - root                      - Pipeline execution finished.
+2025-06-15 11:58:20 - INFO     - root                      - ============================================================
+2025-06-15 11:58:20 - INFO     - root                      - FlippingBook Product Extraction Pipeline Starting...
+2025-06-15 11:58:20 - INFO     - root                      - Running steps: [1, 2]
+2025-06-15 11:58:20 - INFO     - root                      - ============================================================
+2025-06-15 11:58:20 - INFO     - src.delegates.file_manager_delegate - File manager initialized. Data will be stored in subdirectories of: /Users/darculian/flippingbook_pipeline_test/data
+2025-06-15 11:58:28 - INFO     - src.pipeline.steps        - --- STEP 1: EXTRACTING PUBLICATION MODEL FROM HTML ---
+2025-06-15 11:58:28 - INFO     - src.pipeline.steps        - Attempting to retrieve HTML from: https://online.flippingbook.com/view/890674106/1
+2025-06-15 11:58:30 - INFO     - src.delegates.web_scraper_delegate - Navigating to catalog: https://online.flippingbook.com/view/890674106/1
+2025-06-15 11:58:31 - INFO     - src.delegates.web_scraper_delegate - Successfully fetched page HTML content for https://online.flippingbook.com/view/890674106/1.
+2025-06-15 11:58:31 - INFO     - src.delegates.file_manager_delegate - Saved extracted Publication Model to: pager_890674106.json
+2025-06-15 11:58:31 - INFO     - src.pipeline.steps        - Publication model saved to: /Users/darculian/flippingbook_pipeline_test/data/1_pager_json/pager_890674106.json
+2025-06-15 11:58:31 - INFO     - src.pipeline.steps        - --- STEP 1 COMPLETE ---
+2025-06-15 11:58:32 - INFO     - src.pipeline.steps        - --- STEP 2: EXTRACTING PRODUCT DATA FROM XML ---
+2025-06-15 11:58:32 - INFO     - src.pipeline.steps        - Constructed base search URL: https://d17lvj5xn8sco6.cloudfront.net/CF/7B/7B/36/F8/E1/AA/9D/49/3A/C9/E6/8A/27/64/28/00517583/flash/search/
+2025-06-15 11:58:32 - INFO     - src.pipeline.steps        - Discovered 0 pages to process.
+2025-06-15 11:58:32 - INFO     - src.pipeline.steps        - --- STEP 2 COMPLETE ---
+2025-06-15 11:58:32 - INFO     - src.main                  - Main pipeline process finished.
+2025-06-15 11:58:32 - INFO     - root                      - ============================================================
+2025-06-15 11:58:32 - INFO     - root                      - Pipeline execution finished.
+2025-06-15 12:23:42 - INFO     - root                      - ============================================================
+2025-06-15 12:23:42 - INFO     - root                      - FlippingBook Product Extraction Pipeline Starting...
+2025-06-15 12:23:42 - INFO     - root                      - Running steps: [1, 2]
+2025-06-15 12:23:42 - INFO     - root                      - ============================================================
+2025-06-15 12:23:42 - INFO     - src.delegates.file_manager_delegate - File manager initialized. Data will be stored in subdirectories of: /Users/darculian/flippingbook_pipeline_test/data
+2025-06-15 12:23:46 - INFO     - src.pipeline.steps        - --- STEP 1: EXTRACTING PUBLICATION MODEL FROM HTML ---
+2025-06-15 12:23:46 - INFO     - src.pipeline.steps        - Attempting to retrieve HTML from: https://online.flippingbook.com/view/890674106/1
+2025-06-15 12:23:47 - INFO     - src.delegates.web_scraper_delegate - Navigating to catalog: https://online.flippingbook.com/view/890674106/1
+2025-06-15 12:23:47 - INFO     - src.delegates.web_scraper_delegate - Successfully fetched page HTML content for https://online.flippingbook.com/view/890674106/1.
+2025-06-15 12:23:48 - INFO     - src.delegates.file_manager_delegate - Saved extracted Publication Model to: pager_890674106.json
+2025-06-15 12:23:48 - INFO     - src.pipeline.steps        - Publication model saved to: /Users/darculian/flippingbook_pipeline_test/data/1_pager_json/pager_890674106.json
+2025-06-15 12:23:48 - INFO     - src.pipeline.steps        - --- STEP 1 COMPLETE ---
+2025-06-15 12:23:48 - INFO     - src.pipeline.steps        - --- STEP 2: EXTRACTING PRODUCT DATA FROM XML ---
+2025-06-15 12:23:48 - INFO     - src.pipeline.steps        - Discovered 0 pages to process with XML paths.
+2025-06-15 12:23:48 - WARNING  - src.pipeline.steps        - No pages with valid search XML paths found. Step 2 will not process any XMLs.
+2025-06-15 12:23:48 - INFO     - src.pipeline.steps        - --- STEP 2 COMPLETE ---
+2025-06-15 12:23:48 - INFO     - src.main                  - Main pipeline process finished.
+2025-06-15 12:23:48 - INFO     - root                      - ============================================================
+2025-06-15 12:23:48 - INFO     - root                      - Pipeline execution finished.
+2025-06-15 12:39:55 - INFO     - root                      - ============================================================
+2025-06-15 12:39:55 - INFO     - root                      - FlippingBook Product Extraction Pipeline Starting...
+2025-06-15 12:39:55 - INFO     - root                      - Running steps: [1, 2]
+2025-06-15 12:39:55 - INFO     - root                      - ============================================================
+2025-06-15 12:39:55 - INFO     - src.delegates.file_manager_delegate - File manager initialized. Data will be stored in subdirectories of: /Users/darculian/flippingbook_pipeline_test/data
+2025-06-15 12:39:55 - CRITICAL - root                      - An unexpected error occurred: __init__() missing 1 required positional argument: 'har_output_path'
+Traceback (most recent call last):
+  File "/Users/darculian/flippingbook_pipeline_test/run_extractor.py", line 82, in <module>
+    asyncio.run(run_pipeline(steps_to_run=args.steps))
+  File "/Users/darculian/.pyenv/versions/3.9.2/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Users/darculian/.pyenv/versions/3.9.2/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/darculian/flippingbook_pipeline_test/src/main.py", line 24, in main
+    async with WebScraperDelegate(user_agent=config.USER_AGENT, viewport=config.VIEWPORT) as web_scraper:
+TypeError: __init__() missing 1 required positional argument: 'har_output_path'
+2025-06-15 12:39:55 - INFO     - root                      - ============================================================
+2025-06-15 12:39:55 - INFO     - root                      - Pipeline execution finished.
+2025-06-15 12:40:48 - INFO     - root                      - ============================================================
+2025-06-15 12:40:48 - INFO     - root                      - FlippingBook Product Extraction Pipeline Starting...
+2025-06-15 12:40:48 - INFO     - root                      - Running steps: [1, 2]
+2025-06-15 12:40:48 - INFO     - root                      - ============================================================
+2025-06-15 12:40:48 - INFO     - src.delegates.file_manager_delegate - File manager initialized. Data will be stored in subdirectories of: /Users/darculian/flippingbook_pipeline_test/data
+2025-06-15 12:40:48 - INFO     - src.main                  - HAR file will be saved to: /Users/darculian/flippingbook_pipeline_test/data/catalog_890674106.har
+2025-06-15 12:40:50 - INFO     - src.pipeline.steps        - --- STEP 1: EXTRACTING PUBLICATION MODEL FROM HTML ---
+2025-06-15 12:40:50 - INFO     - src.pipeline.steps        - Attempting to retrieve HTML from: https://online.flippingbook.com/view/890674106/1
+2025-06-15 12:40:50 - INFO     - src.delegates.web_scraper_delegate - Navigating to catalog: https://online.flippingbook.com/view/890674106/1
+2025-06-15 12:40:51 - INFO     - src.delegates.web_scraper_delegate - Successfully fetched page HTML content for https://online.flippingbook.com/view/890674106/1.
+2025-06-15 12:40:51 - INFO     - src.delegates.file_manager_delegate - Saved extracted Publication Model to: pager_890674106.json
+2025-06-15 12:40:51 - INFO     - src.pipeline.steps        - Publication model saved to: /Users/darculian/flippingbook_pipeline_test/data/1_pager_json/pager_890674106.json
+2025-06-15 12:40:51 - INFO     - src.pipeline.steps        - --- STEP 1 COMPLETE ---
+2025-06-15 12:40:51 - INFO     - src.pipeline.steps        - --- STEP 2: EXTRACTING PRODUCT DATA FROM XML ---
+2025-06-15 12:40:51 - INFO     - src.pipeline.steps        - Discovered 0 pages to process with XML paths.
+2025-06-15 12:40:51 - WARNING  - src.pipeline.steps        - No pages with valid search XML paths found. Step 2 will not process any XMLs.
+2025-06-15 12:40:51 - INFO     - src.pipeline.steps        - --- STEP 2 COMPLETE ---
+2025-06-15 12:40:51 - INFO     - src.main                  - Main pipeline process finished.
+2025-06-15 12:40:51 - INFO     - root                      - ============================================================
+2025-06-15 12:40:51 - INFO     - root                      - Pipeline execution finished.
+2025-06-15 12:54:11 - INFO     - root                      - ============================================================
+2025-06-15 12:54:11 - INFO     - root                      - FlippingBook Product Extraction Pipeline Starting...
+2025-06-15 12:54:11 - INFO     - root                      - Running steps: [1, 2]
+2025-06-15 12:54:11 - INFO     - root                      - ============================================================
+2025-06-15 12:54:11 - INFO     - src.delegates.file_manager_delegate - File manager initialized. Data will be stored in subdirectories of: /Users/darculian/flippingbook_pipeline_test/data
+2025-06-15 12:54:11 - INFO     - src.main                  - HAR file will be saved to: /Users/darculian/flippingbook_pipeline_test/data/catalog_890674106.har
+2025-06-15 12:54:13 - INFO     - src.pipeline.steps        - --- STEP 1: EXTRACTING PUBLICATION MODEL FROM HTML ---
+2025-06-15 12:54:13 - INFO     - src.pipeline.steps        - Attempting to retrieve HTML from: https://online.flippingbook.com/view/890674106/1
+2025-06-15 12:54:14 - INFO     - src.delegates.web_scraper_delegate - Navigating to catalog: https://online.flippingbook.com/view/890674106/1
+2025-06-15 12:54:14 - INFO     - src.delegates.web_scraper_delegate - Successfully fetched page HTML content for https://online.flippingbook.com/view/890674106/1.
+2025-06-15 12:54:14 - INFO     - src.delegates.file_manager_delegate - Saved extracted Publication Model to: pager_890674106.json
+2025-06-15 12:54:14 - INFO     - src.pipeline.steps        - Publication model saved to: /Users/darculian/flippingbook_pipeline_test/data/1_pager_json/pager_890674106.json
+2025-06-15 12:54:14 - INFO     - src.pipeline.steps        - --- STEP 1 COMPLETE ---
+2025-06-15 12:54:14 - INFO     - src.pipeline.steps        - --- STEP 2: EXTRACTING PRODUCT DATA FROM XML ---
+2025-06-15 12:54:14 - INFO     - src.pipeline.steps        - Discovered 0 pages to process with XML paths.
+2025-06-15 12:54:14 - WARNING  - src.pipeline.steps        - No pages with valid search XML paths found. Step 2 will not process any XMLs.
+2025-06-15 12:54:14 - INFO     - src.pipeline.steps        - --- STEP 2 COMPLETE ---
+2025-06-15 12:54:14 - INFO     - src.main                  - Main pipeline process finished.
+2025-06-15 12:54:14 - INFO     - root                      - ============================================================
+2025-06-15 12:54:14 - INFO     - root                      - Pipeline execution finished.
+2025-06-15 12:57:28 - INFO     - root                      - --- HAR Generation Mode ---
+2025-06-15 12:57:28 - INFO     - src.utils.har_generator   - Starting HAR generation for URL: https://online.flippingbook.com/view/890674106/2/
+2025-06-15 12:57:28 - INFO     - src.utils.har_generator   - Output HAR file: another_page.har
+2025-06-15 12:57:30 - INFO     - src.utils.har_generator   - Navigating to https://online.flippingbook.com/view/890674106/2/, waiting until networkidle (timeout: 60.0s)...
+2025-06-15 12:57:34 - INFO     - src.utils.har_generator   - Waiting for an additional 5 seconds to ensure all dynamic content loads for HAR...
+2025-06-15 12:57:39 - INFO     - src.utils.har_generator   - Page loaded and additional wait completed for HAR.
+2025-06-15 12:57:40 - INFO     - src.utils.har_generator   - HAR generation complete.
+2025-06-15 12:57:40 - INFO     - root                      - --- HAR Generation Finished ---
+2025-06-15 12:58:16 - INFO     - root                      - --- HAR Generation Mode ---
+2025-06-15 12:58:16 - INFO     - src.utils.har_generator   - Starting HAR generation for URL: https://online.flippingbook.com/view/890674106/2/
+2025-06-15 12:58:16 - INFO     - src.utils.har_generator   - Output HAR file: another_page.har
+2025-06-15 12:58:17 - INFO     - src.utils.har_generator   - Navigating to https://online.flippingbook.com/view/890674106/2/, waiting until networkidle (timeout: 60.0s)...
+2025-06-15 12:58:22 - INFO     - src.utils.har_generator   - Waiting for an additional 5 seconds to ensure all dynamic content loads for HAR...
+2025-06-15 12:58:27 - INFO     - src.utils.har_generator   - Page loaded and additional wait completed for HAR.
+2025-06-15 12:58:28 - INFO     - src.utils.har_generator   - HAR generation complete.
+2025-06-15 12:58:28 - INFO     - root                      - --- HAR Generation Finished ---
+2025-06-15 13:08:57 - INFO     - root                      - ============================================================
+2025-06-15 13:08:57 - INFO     - root                      - FlippingBook Product Extraction Pipeline Starting...
+2025-06-15 13:08:57 - INFO     - root                      - Running steps: [1, 2]
+2025-06-15 13:08:57 - INFO     - root                      - ============================================================
+2025-06-15 13:08:57 - INFO     - src.delegates.file_manager_delegate - File manager initialized. Data will be stored in subdirectories of: /Users/darculian/flippingbook_pipeline_test/data
+2025-06-15 13:08:57 - INFO     - src.main                  - HAR file will be saved to: /Users/darculian/flippingbook_pipeline_test/data/catalog_890674106.har
+2025-06-15 13:09:00 - INFO     - src.pipeline.steps        - --- STEP 1: EXTRACTING PUBLICATION MODEL FROM HTML ---
+2025-06-15 13:09:00 - INFO     - src.pipeline.steps        - Attempting to retrieve HTML from: https://online.flippingbook.com/view/890674106/1
+2025-06-15 13:09:01 - INFO     - src.delegates.web_scraper_delegate - Navigating to catalog: https://online.flippingbook.com/view/890674106/1
+2025-06-15 13:09:02 - INFO     - src.delegates.web_scraper_delegate - Successfully fetched page HTML content for https://online.flippingbook.com/view/890674106/1.
+2025-06-15 13:09:02 - INFO     - src.delegates.file_manager_delegate - Saved extracted Publication Model to: pager_890674106.json
+2025-06-15 13:09:02 - INFO     - src.pipeline.steps        - Publication model saved to: /Users/darculian/flippingbook_pipeline_test/data/1_pager_json/pager_890674106.json
+2025-06-15 13:09:02 - INFO     - src.pipeline.steps        - --- STEP 1 COMPLETE ---
+2025-06-15 13:09:02 - CRITICAL - root                      - An unexpected error occurred: cannot unpack non-iterable PosixPath object
+Traceback (most recent call last):
+  File "/Users/darculian/flippingbook_pipeline_test/run_extractor.py", line 103, in <module>
+    asyncio.run(run_pipeline(steps_to_run=args.steps))
+  File "/Users/darculian/.pyenv/versions/3.9.2/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Users/darculian/.pyenv/versions/3.9.2/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/darculian/flippingbook_pipeline_test/src/main.py", line 33, in main
+    pager_path, signed_params = result # Unpack the results
+TypeError: cannot unpack non-iterable PosixPath object
+2025-06-15 13:09:02 - INFO     - root                      - ============================================================
+2025-06-15 13:09:02 - INFO     - root                      - Pipeline execution finished.
+2025-06-15 13:10:26 - INFO     - root                      - ============================================================
+2025-06-15 13:10:26 - INFO     - root                      - FlippingBook Product Extraction Pipeline Starting...
+2025-06-15 13:10:26 - INFO     - root                      - Running steps: [1, 2]
+2025-06-15 13:10:26 - INFO     - root                      - ============================================================
+2025-06-15 13:10:26 - INFO     - src.delegates.file_manager_delegate - File manager initialized. Data will be stored in subdirectories of: /Users/darculian/flippingbook_pipeline_test/data
+2025-06-15 13:10:26 - INFO     - src.main                  - HAR file will be saved to: /Users/darculian/flippingbook_pipeline_test/data/catalog_890674106.har
+2025-06-15 13:10:27 - INFO     - src.pipeline.steps        - --- STEP 1: EXTRACTING PUBLICATION MODEL AND SIGNED PARAMS FROM HTML ---
+2025-06-15 13:10:27 - INFO     - src.pipeline.steps        - Attempting to retrieve HTML from: https://online.flippingbook.com/view/890674106/1
+2025-06-15 13:10:28 - INFO     - src.delegates.web_scraper_delegate - Navigating to catalog: https://online.flippingbook.com/view/890674106/1
+2025-06-15 13:10:28 - INFO     - src.delegates.web_scraper_delegate - Successfully fetched page HTML content for https://online.flippingbook.com/view/890674106/1.
+2025-06-15 13:10:28 - WARNING  - src.pipeline.steps        - Not all required CloudFront signed URL parameters found automatically. XML downloads may fail.
+2025-06-15 13:10:28 - INFO     - src.delegates.file_manager_delegate - Saved extracted Publication Model to: pager_890674106.json
+2025-06-15 13:10:28 - INFO     - src.pipeline.steps        - Publication model saved to: /Users/darculian/flippingbook_pipeline_test/data/1_pager_json/pager_890674106.json
+2025-06-15 13:10:28 - INFO     - src.pipeline.steps        - --- STEP 1 COMPLETE ---
+2025-06-15 13:10:29 - INFO     - src.pipeline.steps        - --- STEP 2: EXTRACTING PRODUCT DATA FROM XML ---
+2025-06-15 13:10:29 - ERROR    - src.pipeline.steps        - Signed URL parameters are incomplete or missing. Cannot download signed XMLs. Parameters: {'uni': '4.27.1-hotfix.1.1-R11204'}
+2025-06-15 13:10:29 - INFO     - src.main                  - Main pipeline process finished.
+2025-06-15 13:10:29 - INFO     - root                      - ============================================================
+2025-06-15 13:10:29 - INFO     - root                      - Pipeline execution finished.
+2025-06-15 13:17:23 - INFO     - root                      - ============================================================
+2025-06-15 13:17:23 - INFO     - root                      - FlippingBook Product Extraction Pipeline Starting...
+2025-06-15 13:17:23 - INFO     - root                      - Running steps: [1, 2]
+2025-06-15 13:17:23 - INFO     - root                      - ============================================================
+2025-06-15 13:17:23 - INFO     - src.delegates.file_manager_delegate - File manager initialized. Data will be stored in subdirectories of: /Users/darculian/flippingbook_pipeline_test/data
+2025-06-15 13:17:23 - INFO     - src.main                  - HAR file will be saved to: /Users/darculian/flippingbook_pipeline_test/data/catalog_890674106.har
+2025-06-15 13:17:27 - INFO     - src.pipeline.steps        - --- STEP 1: EXTRACTING PUBLICATION MODEL AND SIGNED PARAMS FROM HTML ---
+2025-06-15 13:17:27 - INFO     - src.pipeline.steps        - Attempting to retrieve HTML from: https://online.flippingbook.com/view/890674106/1
+2025-06-15 13:17:27 - INFO     - src.delegates.web_scraper_delegate - Navigating to catalog: https://online.flippingbook.com/view/890674106/1
+2025-06-15 13:17:28 - INFO     - src.delegates.web_scraper_delegate - Successfully fetched page HTML content for https://online.flippingbook.com/view/890674106/1.
+2025-06-15 13:17:29 - WARNING  - src.pipeline.steps        - Not all required CloudFront signed URL parameters found automatically. XML downloads may fail.
+2025-06-15 13:17:29 - INFO     - src.delegates.file_manager_delegate - Saved extracted Publication Model to: pager_890674106.json
+2025-06-15 13:17:29 - INFO     - src.pipeline.steps        - Publication model saved to: /Users/darculian/flippingbook_pipeline_test/data/1_pager_json/pager_890674106.json
+2025-06-15 13:17:29 - INFO     - src.pipeline.steps        - --- STEP 1 COMPLETE ---
+2025-06-15 13:17:29 - INFO     - src.pipeline.steps        - --- STEP 2: EXTRACTING PRODUCT DATA FROM XML ---
+2025-06-15 13:17:29 - ERROR    - src.pipeline.steps        - Signed URL parameters are incomplete or missing. Cannot download signed XMLs. Parameters: {'uni': '4.27.1-hotfix.1.1-R11204'}
+2025-06-15 13:17:29 - INFO     - src.main                  - Main pipeline process finished.
+2025-06-15 13:17:29 - INFO     - root                      - ============================================================
+2025-06-15 13:17:29 - INFO     - root                      - Pipeline execution finished.
+2025-06-15 13:23:55 - INFO     - root                      - ============================================================
+2025-06-15 13:23:55 - INFO     - root                      - FlippingBook Product Extraction Pipeline Starting...
+2025-06-15 13:23:55 - INFO     - root                      - Running steps: [1, 2]
+2025-06-15 13:23:55 - INFO     - root                      - ============================================================
+2025-06-15 13:23:55 - INFO     - src.delegates.file_manager_delegate - File manager initialized. Data will be stored in subdirectories of: /Users/darculian/flippingbook_pipeline_test/data
+2025-06-15 13:23:55 - INFO     - src.main                  - HAR file will be saved to: /Users/darculian/flippingbook_pipeline_test/data/catalog_890674106.har
+2025-06-15 13:23:57 - INFO     - src.pipeline.steps        - --- STEP 1: EXTRACTING PUBLICATION MODEL AND CAPTURING SIGNED PARAMS ---
+2025-06-15 13:23:57 - INFO     - src.pipeline.steps        - Attempting to retrieve HTML from: https://online.flippingbook.com/view/890674106/1
+2025-06-15 13:23:58 - INFO     - src.delegates.web_scraper_delegate - Navigating to catalog: https://online.flippingbook.com/view/890674106/1
+2025-06-15 13:23:59 - INFO     - src.delegates.web_scraper_delegate - Successfully fetched page HTML content for https://online.flippingbook.com/view/890674106/1.
+2025-06-15 13:23:59 - WARNING  - src.pipeline.steps        - Not all required CloudFront signed URL parameters found automatically. XML downloads may fail.
+2025-06-15 13:23:59 - INFO     - src.delegates.file_manager_delegate - Saved extracted Publication Model to: pager_890674106.json
+2025-06-15 13:23:59 - INFO     - src.pipeline.steps        - Publication model saved to: /Users/darculian/flippingbook_pipeline_test/data/1_pager_json/pager_890674106.json
+2025-06-15 13:23:59 - INFO     - src.pipeline.steps        - --- STEP 1 COMPLETE ---
+2025-06-15 13:23:59 - INFO     - src.pipeline.steps        - --- STEP 2: EXTRACTING PRODUCT DATA FROM XML ---
+2025-06-15 13:23:59 - ERROR    - src.pipeline.steps        - Signed URL parameters are incomplete or missing. Cannot download signed XMLs. Parameters: {'uni': '4.27.1-hotfix.1.1-R11204'}
+2025-06-15 13:23:59 - INFO     - src.main                  - Main pipeline process finished.
+2025-06-15 13:23:59 - INFO     - root                      - ============================================================
+2025-06-15 13:23:59 - INFO     - root                      - Pipeline execution finished.
+2025-06-15 13:28:00 - INFO     - root                      - ============================================================
+2025-06-15 13:28:00 - INFO     - root                      - FlippingBook Product Extraction Pipeline Starting...
+2025-06-15 13:28:00 - INFO     - root                      - Running steps: [1, 2]
+2025-06-15 13:28:00 - INFO     - root                      - ============================================================
+2025-06-15 13:28:00 - INFO     - src.delegates.file_manager_delegate - File manager initialized. Data will be stored in subdirectories of: /Users/darculian/flippingbook_pipeline_test/data
+2025-06-15 13:28:00 - INFO     - src.main                  - HAR file will be saved to: /Users/darculian/flippingbook_pipeline_test/data/catalog_890674106.har
+2025-06-15 13:28:03 - INFO     - src.pipeline.steps        - --- STEP 1: EXTRACTING PUBLICATION MODEL AND CAPTURING SIGNED PARAMS ---
+2025-06-15 13:28:03 - INFO     - src.pipeline.steps        - Attempting to retrieve HTML from: https://online.flippingbook.com/view/890674106/1
+2025-06-15 13:28:04 - INFO     - src.delegates.web_scraper_delegate - Navigating to catalog: https://online.flippingbook.com/view/890674106/1
+2025-06-15 13:28:05 - INFO     - src.delegates.web_scraper_delegate - Intercepted and captured all signed params for XML request: https://d17lvj5xn8sco6.cloudfront.net/CF/7B/7B/36/F8/E1/AA/9D/49/3A/C9/E6/8A/27/64/28/00517583/flash/search/search0001.xml?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9kMTdsdmo1eG44c2NvNi5jbG91ZGZyb250Lm5ldC9DRi83Qi83Qi8zNi9GOC9FMS9BQS85RC80OS8zQS9DOS9FNi84QS8yNy82NC8yOC8wMDUxNzU4My8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzUwMDIwNDg0fX19XX0_&Signature=c5pKoJ-9kTka8N9yXq-qh0lgkR7ef1zpvbqiPx6vYI9aWTCqUxiNKzDyA1VaQ1K-8uLBQBYHM5~xqVK3ZqY7IC4~qqPFFWZWEJ0-mnhd1YW0ftRUAqI0yNBIZyncglY-CotHAiXftgrgZi4A9t~BNRvcpUq8ZOygAkvZBiinRp8_&Key-Pair-Id=APKAJHHI2UARJWNSOBCQ&uni=4.27.1-hotfix.1.1-R11204
+2025-06-15 13:28:08 - INFO     - src.delegates.web_scraper_delegate - Successfully fetched page HTML content for https://online.flippingbook.com/view/890674106/1.
+2025-06-15 13:28:08 - INFO     - src.pipeline.steps        - Successfully captured all CloudFront signing parameters via interception.
+2025-06-15 13:28:08 - INFO     - src.delegates.file_manager_delegate - Saved extracted Publication Model to: pager_890674106.json
+2025-06-15 13:28:08 - INFO     - src.pipeline.steps        - Publication model saved to: /Users/darculian/flippingbook_pipeline_test/data/1_pager_json/pager_890674106.json
+2025-06-15 13:28:08 - INFO     - src.pipeline.steps        - --- STEP 1 COMPLETE ---
+2025-06-15 13:28:09 - INFO     - src.pipeline.steps        - --- STEP 2: EXTRACTING PRODUCT DATA FROM XML ---
+2025-06-15 13:28:09 - INFO     - src.pipeline.steps        - ContentRoot used for base search URL: https://d17lvj5xn8sco6.cloudfront.net/CF/7B/7B/36/F8/E1/AA/9D/49/3A/C9/E6/8A/27/64/28/00517583/
+2025-06-15 13:28:09 - INFO     - src.pipeline.steps        - Discovered 0 pages to process with XML paths.
+2025-06-15 13:28:09 - WARNING  - src.pipeline.steps        - No pages with valid search XML paths found. Step 2 will not process any XMLs.
+2025-06-15 13:28:09 - INFO     - src.pipeline.steps        - --- STEP 2 COMPLETE ---
+2025-06-15 13:28:09 - INFO     - src.main                  - Main pipeline process finished.
+2025-06-15 13:28:09 - INFO     - root                      - ============================================================
+2025-06-15 13:28:09 - INFO     - root                      - Pipeline execution finished.
+2025-06-15 13:30:40 - INFO     - root                      - ============================================================
+2025-06-15 13:30:40 - INFO     - root                      - FlippingBook Product Extraction Pipeline Starting...
+2025-06-15 13:30:40 - INFO     - root                      - Running steps: [1, 2]
+2025-06-15 13:30:40 - INFO     - root                      - ============================================================
+2025-06-15 13:30:40 - INFO     - src.delegates.file_manager_delegate - File manager initialized. Data will be stored in subdirectories of: /Users/darculian/flippingbook_pipeline_test/data
+2025-06-15 13:30:40 - INFO     - src.main                  - HAR file will be saved to: /Users/darculian/flippingbook_pipeline_test/data/catalog_890674106.har
+2025-06-15 13:30:42 - INFO     - src.pipeline.steps        - --- STEP 1: EXTRACTING PUBLICATION MODEL AND CAPTURING SIGNED PARAMS ---
+2025-06-15 13:30:42 - INFO     - src.pipeline.steps        - Attempting to retrieve HTML from: https://online.flippingbook.com/view/890674106/1
+2025-06-15 13:30:43 - INFO     - src.delegates.web_scraper_delegate - Navigating to catalog: https://online.flippingbook.com/view/890674106/1
+2025-06-15 13:30:44 - INFO     - src.delegates.web_scraper_delegate - Intercepted and captured all signed params for XML request: https://d17lvj5xn8sco6.cloudfront.net/CF/7B/7B/36/F8/E1/AA/9D/49/3A/C9/E6/8A/27/64/28/00517583/flash/search/search0001.xml?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9kMTdsdmo1eG44c2NvNi5jbG91ZGZyb250Lm5ldC9DRi83Qi83Qi8zNi9GOC9FMS9BQS85RC80OS8zQS9DOS9FNi84QS8yNy82NC8yOC8wMDUxNzU4My8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzUwMDIwNjQzfX19XX0_&Signature=Bp5hy6L9qnoVhDkTdXeGVMbDwLLfyUBgllAZXk5c0lu9hp4I7ZerURgz2skwox4PxESt4xrZyK1WzMPvXjwf3BnrQ8mEWoqc7YEjpkqAhlFoMx7CtGbTFRGN4KblbepSmcO7tj1j4SkrFgjRAzHdqoA9rD2xSqHkQ1BhD~uAp-U_&Key-Pair-Id=APKAJHHI2UARJWNSOBCQ&uni=4.27.1-hotfix.1.1-R11204
+2025-06-15 13:30:46 - INFO     - src.delegates.web_scraper_delegate - Successfully fetched page HTML content for https://online.flippingbook.com/view/890674106/1.
+2025-06-15 13:30:46 - INFO     - src.pipeline.steps        - Successfully found all 3 (Policy, Signature, Key-Pair-Id) parameters via direct HTML regex.
+2025-06-15 13:30:46 - INFO     - src.pipeline.steps        - FINAL CHECK: All CloudFront signing parameters collected successfully.
+2025-06-15 13:30:46 - INFO     - src.pipeline.steps        - Prioritizing signed parameters captured via Playwright interception.
+2025-06-15 13:30:46 - INFO     - src.delegates.file_manager_delegate - Saved extracted Publication Model to: pager_890674106.json
+2025-06-15 13:30:46 - INFO     - src.pipeline.steps        - Publication model saved to: /Users/darculian/flippingbook_pipeline_test/data/1_pager_json/pager_890674106.json
+2025-06-15 13:30:46 - INFO     - src.pipeline.steps        - --- STEP 1 COMPLETE ---
+2025-06-15 13:30:47 - INFO     - src.pipeline.steps        - --- STEP 2: EXTRACTING PRODUCT DATA FROM XML ---
+2025-06-15 13:30:47 - INFO     - src.pipeline.steps        - ContentRoot used for base search URL: https://d17lvj5xn8sco6.cloudfront.net/CF/7B/7B/36/F8/E1/AA/9D/49/3A/C9/E6/8A/27/64/28/00517583/
+2025-06-15 13:30:47 - INFO     - src.pipeline.steps        - Discovered 0 pages to process with XML paths.
+2025-06-15 13:30:47 - WARNING  - src.pipeline.steps        - No pages with valid search XML paths found. Step 2 will not process any XMLs.
+2025-06-15 13:30:47 - INFO     - src.pipeline.steps        - --- STEP 2 COMPLETE ---
+2025-06-15 13:30:47 - INFO     - src.main                  - Main pipeline process finished.
+2025-06-15 13:30:47 - INFO     - root                      - ============================================================
+2025-06-15 13:30:47 - INFO     - root                      - Pipeline execution finished.
+2025-06-15 13:33:25 - INFO     - root                      - ============================================================
+2025-06-15 13:33:25 - INFO     - root                      - FlippingBook Product Extraction Pipeline Starting...
+2025-06-15 13:33:25 - INFO     - root                      - Running steps: [1, 2]
+2025-06-15 13:33:25 - INFO     - root                      - ============================================================
+2025-06-15 13:33:25 - INFO     - src.delegates.file_manager_delegate - File manager initialized. Data will be stored in subdirectories of: /Users/darculian/flippingbook_pipeline_test/data
+2025-06-15 13:33:25 - INFO     - src.main                  - HAR file will be saved to: /Users/darculian/flippingbook_pipeline_test/data/catalog_890674106.har
+2025-06-15 13:33:27 - INFO     - src.pipeline.steps        - --- STEP 1: EXTRACTING PUBLICATION MODEL AND CAPTURING SIGNED PARAMS ---
+2025-06-15 13:33:27 - INFO     - src.pipeline.steps        - Attempting to retrieve HTML from: https://online.flippingbook.com/view/890674106/1
+2025-06-15 13:33:27 - INFO     - src.delegates.web_scraper_delegate - Navigating to catalog: https://online.flippingbook.com/view/890674106/1
+2025-06-15 13:33:29 - INFO     - src.delegates.web_scraper_delegate - Intercepted and captured all signed params for XML request: https://d17lvj5xn8sco6.cloudfront.net/CF/7B/7B/36/F8/E1/AA/9D/49/3A/C9/E6/8A/27/64/28/00517583/flash/search/search0001.xml?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9kMTdsdmo1eG44c2NvNi5jbG91ZGZyb250Lm5ldC9DRi83Qi83Qi8zNi9GOC9FMS9BQS85RC80OS8zQS9DOS9FNi84QS8yNy82NC8yOC8wMDUxNzU4My8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzUwMDIwODA4fX19XX0_&Signature=cRQokPD1kcGP6BilCgJGh4YIlVe-uwkO8GECWNfIaI1QebagmMcAhIX4baSIH8z8WDbQEFf5BRh9fzW9AyYJYPDJiWHLz1zt2NYIRLWqibMA0oWp~yRUsSveI2gIq36pv-OQeSQOnKdCRk0uK4OxkFnEGlL5-vZSQOjVEKiUWAI_&Key-Pair-Id=APKAJHHI2UARJWNSOBCQ&uni=4.27.1-hotfix.1.1-R11204
+2025-06-15 13:33:31 - INFO     - src.delegates.web_scraper_delegate - Successfully fetched page HTML content for https://online.flippingbook.com/view/890674106/1.
+2025-06-15 13:33:31 - INFO     - src.pipeline.steps        - Successfully found all 3 (Policy, Signature, Key-Pair-Id) parameters via direct HTML regex.
+2025-06-15 13:33:31 - INFO     - src.pipeline.steps        - FINAL CHECK: All CloudFront signing parameters collected successfully.
+2025-06-15 13:33:31 - INFO     - src.pipeline.steps        - Prioritizing signed parameters captured via Playwright interception if complete.
+2025-06-15 13:33:31 - INFO     - src.delegates.file_manager_delegate - Saved extracted Publication Model to: pager_890674106.json
+2025-06-15 13:33:31 - INFO     - src.pipeline.steps        - Publication model saved to: /Users/darculian/flippingbook_pipeline_test/data/1_pager_json/pager_890674106.json
+2025-06-15 13:33:31 - INFO     - src.pipeline.steps        - --- STEP 1 COMPLETE ---
+2025-06-15 13:33:32 - INFO     - src.pipeline.steps        - --- STEP 2: EXTRACTING PRODUCT DATA FROM XML ---
+2025-06-15 13:33:32 - INFO     - src.pipeline.steps        - ContentRoot used for base search URL: https://d17lvj5xn8sco6.cloudfront.net/CF/7B/7B/36/F8/E1/AA/9D/49/3A/C9/E6/8A/27/64/28/00517583/
+2025-06-15 13:33:32 - INFO     - src.pipeline.steps        - Discovered 0 pages to process with XML paths.
+2025-06-15 13:33:32 - WARNING  - src.pipeline.steps        - No pages with valid search XML paths found. Step 2 will not process any XMLs.
+2025-06-15 13:33:32 - INFO     - src.pipeline.steps        - --- STEP 2 COMPLETE ---
+2025-06-15 13:33:32 - INFO     - src.main                  - Main pipeline process finished.
+2025-06-15 13:33:32 - INFO     - root                      - ============================================================
+2025-06-15 13:33:32 - INFO     - root                      - Pipeline execution finished.
+2025-06-15 13:35:21 - INFO     - root                      - ============================================================
+2025-06-15 13:35:21 - INFO     - root                      - FlippingBook Product Extraction Pipeline Starting...
+2025-06-15 13:35:21 - INFO     - root                      - Running steps: [1, 2]
+2025-06-15 13:35:21 - INFO     - root                      - ============================================================
+2025-06-15 13:35:21 - INFO     - src.delegates.file_manager_delegate - File manager initialized. Data will be stored in subdirectories of: /Users/darculian/flippingbook_pipeline_test/data
+2025-06-15 13:35:21 - INFO     - src.main                  - HAR file will be saved to: /Users/darculian/flippingbook_pipeline_test/data/catalog_890674106.har
+2025-06-15 13:35:23 - INFO     - src.pipeline.steps        - --- STEP 1: EXTRACTING PUBLICATION MODEL AND CAPTURING SIGNED PARAMS ---
+2025-06-15 13:35:23 - INFO     - src.pipeline.steps        - Attempting to retrieve HTML from: https://online.flippingbook.com/view/890674106/1
+2025-06-15 13:35:24 - INFO     - src.delegates.web_scraper_delegate - Navigating to catalog: https://online.flippingbook.com/view/890674106/1
+2025-06-15 13:35:25 - INFO     - src.delegates.web_scraper_delegate - Intercepted and captured all signed params for XML request: https://d17lvj5xn8sco6.cloudfront.net/CF/7B/7B/36/F8/E1/AA/9D/49/3A/C9/E6/8A/27/64/28/00517583/flash/search/search0001.xml?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9kMTdsdmo1eG44c2NvNi5jbG91ZGZyb250Lm5ldC9DRi83Qi83Qi8zNi9GOC9FMS9BQS85RC80OS8zQS9DOS9FNi84QS8yNy82NC8yOC8wMDUxNzU4My8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzUwMDIwOTI0fX19XX0_&Signature=R-6RyY1H0VIhExVrpouCAVgHBuTbVfmGpS~GdRvN~PO6Y0buG~OYExDNi9sUJyfsCzv7gwH1-7RoZ1cYmPU6l80oJVO1DHlv1pZjmBiLiXceEh~slBCbcvVBzpQMgXGXhs9tA-gC-eXX2dWyezIYI3HtjBM0aNOG5nXaAlfySig_&Key-Pair-Id=APKAJHHI2UARJWNSOBCQ&uni=4.27.1-hotfix.1.1-R11204
+2025-06-15 13:35:29 - INFO     - src.delegates.web_scraper_delegate - Successfully fetched page HTML content for https://online.flippingbook.com/view/890674106/1.
+2025-06-15 13:35:29 - INFO     - src.pipeline.steps        - FINAL CHECK: All CloudFront signing parameters collected successfully.
+2025-06-15 13:35:29 - INFO     - src.pipeline.steps        - Prioritizing signed parameters captured via Playwright interception if complete.
+2025-06-15 13:35:29 - INFO     - src.delegates.file_manager_delegate - Saved extracted Publication Model to: pager_890674106.json
+2025-06-15 13:35:29 - INFO     - src.pipeline.steps        - Publication model saved to: /Users/darculian/flippingbook_pipeline_test/data/1_pager_json/pager_890674106.json
+2025-06-15 13:35:29 - INFO     - src.delegates.file_manager_delegate - Saved CloudFront signed parameters to: signed_params_890674106.json
+2025-06-15 13:35:29 - INFO     - src.pipeline.steps        - --- STEP 1 COMPLETE ---
+2025-06-15 13:35:30 - INFO     - src.pipeline.steps        - --- STEP 2: EXTRACTING PRODUCT DATA FROM XML ---
+2025-06-15 13:35:30 - INFO     - src.pipeline.steps        - ContentRoot used for base search URL: https://d17lvj5xn8sco6.cloudfront.net/CF/7B/7B/36/F8/E1/AA/9D/49/3A/C9/E6/8A/27/64/28/00517583/
+2025-06-15 13:35:30 - INFO     - src.pipeline.steps        - Discovered 0 pages to process with XML paths.
+2025-06-15 13:35:30 - WARNING  - src.pipeline.steps        - No pages with valid search XML paths found. Step 2 will not process any XMLs.
+2025-06-15 13:35:30 - INFO     - src.pipeline.steps        - --- STEP 2 COMPLETE ---
+2025-06-15 13:35:30 - INFO     - src.main                  - Main pipeline process finished.
+2025-06-15 13:35:30 - INFO     - root                      - ============================================================
+2025-06-15 13:35:30 - INFO     - root                      - Pipeline execution finished.

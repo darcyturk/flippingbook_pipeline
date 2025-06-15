@@ -1,0 +1,3 @@
+from .web_scraper_delegate import WebScraperDelegate
+from .downloader_delegate import DownloaderDelegate
+from .file_manager_delegate import FileManagerDelegate

@@ -1,0 +1,5 @@
+# For web browser automation
+playwright==1.44.0
+
+# For making simple HTTP requests (like downloading XML files)
+requests
