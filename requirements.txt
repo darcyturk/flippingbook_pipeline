@@ -1,5 +1,12 @@
-# For web browser automation
-playwright==1.44.0
-
-# For making simple HTTP requests (like downloading XML files)
+# Core libraries for async, web requests, and data handling
+playwright>=1.44.0
+httpx>=0.27.0
+json5>=0.9.14
+lxml>=5.1.0
 requests
+
+# For data modeling (Pydantic is assumed from ProductDetailsAspect)
+pydantic>=2.7.0
+
+# For rich logging output
+rich>=13.7.0
